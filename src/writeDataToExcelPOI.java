@@ -46,7 +46,7 @@ public class writeDataToExcelPOI {
 
 		else if (fileExtensionName.equals(".xls")) {
 
-			// If it is xls file then create object of XSSFWorkbook class
+			// If it is xls file then create object of HSSFWorkbook class
 
 			guru99Workbook = new HSSFWorkbook(inputStream);
 
